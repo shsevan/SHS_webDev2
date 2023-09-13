@@ -2,7 +2,7 @@
 <html lang="en">
 <!--Version 2.0
         Name:Evan Augustine
-        Date Completed:9/10/23
+        Date Completed:
     -->
 
 <head>
@@ -19,8 +19,63 @@
     <link rel="stylesheet" href="style.css">
 
     <style>
+     #banner{
+    border: 5px outset rgb(255, 0, 238);
+    background-color: rgb(245, 224, 224);
+    text-align: center;
+}
+div#face {
+    width: 40vw;
+    height: 40vw;
+    max-width: 400px;
+    max-height: 400px;
+    margin: 0 auto;
+    position: relative;
+    background: rgb(0, 158, 249);
+    margin-top: 2rem;
+}
 
+div#face, div#face * {
+    border-radius: 50%;
+}
+
+.eye {
+    width: 25%;
+    height: 25%;
+    background: #fe0707;
+    position: absolute;
+    top: 20%;
+}
+
+.left.eye {
+    left: 20%;
+}
+
+.right.eye {
+    right: 20%;
+}
+
+.pupil {
+    background: #f9f3f3;
+    width: 50%;
+    height: 50%;
+    position: relative;
+    left: 25%;
+    transform-origin: bottom;
+}
+
+#mouth {
+    position: relative;
+    width: 60%;
+    left: 20%;
+    height: 25%;
+    border: 1vw solid transparent;
+    border-radius: 50%;
+    top: 50%;
+    border-bottom-color: #0400ff;
+}
     </style>
+
 </head>
 
 <body>
@@ -54,12 +109,32 @@
             <!-- Put your 8 examples of other elements ↑↑↑↑↑↑Above↑↑↑↑↑↑ here-->
         </div>
         <div id="banner">
+            <p>Someone likes taylor swift</p>
+
         </div>
         <div id="face">
-
-        </div>
+              <div class="left eye">
+                <div class="pupil">
+                </div>
+           </div>
+           <div class="right eye">
+                <div class="pupil">
+                </div>
+           </div>
+           <div id="mouth">
+           </div>
+            </div>
     </main>
-
+    <h1>SABERS</h1>
+    <section>
+        <h2>Example 1</h2>
+        <p>Black and white</p>
+    </section>
+    
+    <section>
+        <h2>Example 2</h2>
+        <p>sports</p>
+    </section>
 
     <footer>
 
